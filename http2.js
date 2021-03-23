@@ -1,8 +1,8 @@
 const http= require('http');
 
 const handleServer= function( req,res){
-    res.writeHead(404, {'content-type': 'text/plain'});
-    res.write('Esto es un simple texto');
+    res.writeHead(404, {'content-type': 'text/html'});
+    res.write('<h1> HOLA MUNDO CRUEL </h1>');
     res.end();
 }
 
