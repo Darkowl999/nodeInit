@@ -7,3 +7,5 @@ fs.writeFile('./texto.txt','linea uno', function(err){
     }
     console.log('archivo creado');
 });
+
+console.log('ultima linea de codigo');
